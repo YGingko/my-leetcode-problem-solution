@@ -43,9 +43,10 @@ public class ZigZagConversion {
     public static void main(String[] args) {
         ZigZagConversion conversion = new ZigZagConversion();
 
-        int num = 3;
+        int num = 5;
         String s = "PAYPALISHIRING";
 //        s = "ABCD";
+        s = "ABCDEFGHIJKL";
 
         System.out.println(conversion.convert(s, num));
     }
